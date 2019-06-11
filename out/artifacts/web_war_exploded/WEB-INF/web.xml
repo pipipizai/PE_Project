@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+           version="4.0">
+<servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>Login</servlet-class>
+</servlet>
+    <servlet-mapping>
+
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Servlet</servlet-name>
+        <servlet-class>Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+
+        <servlet-name>Servlet</servlet-name>
+        <url-pattern>/Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddFavorite</servlet-name>
+        <servlet-class>AddFavorite</servlet-class>
+    </servlet>
+    <servlet-mapping>
+
+        <servlet-name>AddFavorite</servlet-name>
+        <url-pattern>/AddFavorite</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddFeedback</servlet-name>
+        <servlet-class>AddFeedback</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddFeedback</servlet-name>
+        <url-pattern>/AddFeedback</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddAccount</servlet-name>
+        <servlet-class>AddAccount</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddAccount</servlet-name>
+        <url-pattern>/AddAccount</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddItem</servlet-name>
+        <servlet-class>AddItem</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddItem</servlet-name>
+        <url-pattern>/AddItem</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SearchItem</servlet-name>
+        <servlet-class>SearchItem</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchItem</servlet-name>
+        <url-pattern>/SearchItem</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UpdatePersonal</servlet-name>
+        <servlet-class>UpdatePersonal</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdatePersonal</servlet-name>
+        <url-pattern>/UpdatePersonal</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteItem</servlet-name>
+        <servlet-class>DeleteItem</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteItem</servlet-name>
+        <url-pattern>/DeleteItem</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddComment</servlet-name>
+        <servlet-class>AddComment</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddComment</servlet-name>
+        <url-pattern>/AddComment</url-pattern>
+    </servlet-mapping>
+
+</web-app>
